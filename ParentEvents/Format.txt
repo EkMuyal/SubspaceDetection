@@ -1,0 +1,12 @@
+Format of parent event mat files:
+"comp": OBS names of data time series
+"dataxs": data of the horizontal component X 
+"datays": data of the horizontal component Y
+"datazs": data of the vertical component Z
+"datebeg": absolute time of beginning of data time series
+"fsmaster": sampling frequency in Hz
+"newhdr": header containing event metadata (event number / Latitude / Longitude / Depth (km) / RMS (s) / Fake error X / Fake error Y / Fake error Z / T0 Year / Month / Day / Hour / Minute / Seconds / Magnitude )
+"ppicks": P wave picks (after T0)
+"spicks": S wave picks (after T0)
+"stap": Station names corresponding to P wave picks
+"stas": Station names corresponding to S wave picks
